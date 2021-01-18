@@ -40,7 +40,7 @@ export default {
   },
   methods:{
     newWord(value){
-      if( this.wordToType === value ){
+      if( this.wordToType.toUpperCase() === value.toUpperCase() ){
         this.wordsCompleted++
         this.wordIndex++
         this.wordToType = this.wordList[this.wordIndex]
