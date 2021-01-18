@@ -1,5 +1,11 @@
 # typing_test
 
+Hosted on https://willfrancois.github.io/Vue-Typing-Test/
+
+Words list taken from https://random-word-api.herokuapp.com/home
+
+Can also be run locally using nodejs' vue-cli package.
+
 ## Project setup
 ```
 npm install
